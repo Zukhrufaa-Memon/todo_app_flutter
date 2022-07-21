@@ -3,7 +3,7 @@ class Images{
   // using this dedicated class for images so that we can have robust references
 
  static const String logo='assets/images/listt.png';
- static const String dataInputScreenImage='assets/images/add-todo.png';
+ static const String dataInputScreenImage='assets/images/todo.webp';
 
  
 //material page route is used to identify which screen we have to add in stack(navigator)

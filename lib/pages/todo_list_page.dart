@@ -19,7 +19,7 @@ class _TodoListPageState extends State<TodoListPage> {
   Widget build(BuildContext context) {
     return SafeArea(
       child: Scaffold(
-      appBar: AppBar(title: const Text('Todos'),backgroundColor: Color(0xFF311C61),),
+      appBar: AppBar(title: const Text('Todos'),backgroundColor:Colors.deepPurpleAccent,),
       body: Column(
         crossAxisAlignment: CrossAxisAlignment.center,
         children: [

@@ -43,7 +43,7 @@ class _DataInputScreenState extends State<DataInputScreen> {
     return Scaffold(
       backgroundColor: Colors.white,
       appBar: AppBar(
-        backgroundColor: const Color(0xFF311C61),
+        backgroundColor: Color.fromRGBO(124, 77, 255, 1),
         title: const Text('Data Entry Screen'),
         centerTitle: true,
         actions: [
@@ -94,7 +94,7 @@ class _DataInputScreenState extends State<DataInputScreen> {
               height: 24,
             ),
           ElevatedButton(
-            style: ElevatedButton.styleFrom(primary: const Color(0xFF311C61),),
+            style: ElevatedButton.styleFrom(primary: Colors.deepPurpleAccent,),
             
             onPressed: () {
                showDialog(context: context, builder:(context) {
